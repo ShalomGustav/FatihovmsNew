@@ -10,7 +10,7 @@ void array(string[] stringArray)//Первый метод
         stringArray[i] = Console.ReadLine();
     }
 }
-string[] symbol(string[] stringArray)
+string[] symbol(string[] stringArray)//Второй метод
 {
     int n = 0;
     for (int i = 0; i < stringArray.Length; i++)
