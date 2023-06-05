@@ -42,5 +42,5 @@ void printA(string[] stringArray)//третий метод
     }
     Console.Write("]");
 }
-array(stringArray);//ВЫЗОВ МЕТОДА
+array(stringArray);//вызовы
 printA(symbol(stringArray));
