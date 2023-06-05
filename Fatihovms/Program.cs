@@ -2,7 +2,7 @@
 Console.Write("Введите количество элементов массива:");
 int m = Convert.ToInt32(Console.ReadLine());
 string[] stringArray = new string[m];
-void array(string[] stringArray)//метод заполнения
+void array(string[] stringArray)//Первый метод
 {
     for (int i = 0; i < stringArray.Length; i++)
     {
