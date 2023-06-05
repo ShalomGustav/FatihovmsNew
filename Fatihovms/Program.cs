@@ -33,7 +33,7 @@ string[] symbol(string[] stringArray)//Второй метод
     }
     return rez;
 }
-void printA(string[] stringArray)
+void printA(string[] stringArray)//третий метод
 {
     Console.Write("[");
     for (int i = 0; i < stringArray.Length; i++)
