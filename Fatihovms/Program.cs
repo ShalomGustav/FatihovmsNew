@@ -2,7 +2,7 @@
 Console.Write("Введите количество элементов массива:");
 int m = Convert.ToInt32(Console.ReadLine());
 string[] stringArray = new string[m];
-void array(string[] stringArray)//метод заполнения
+void array(string[] stringArray)//Первый метод
 {
     for (int i = 0; i < stringArray.Length; i++)
     {
@@ -10,7 +10,7 @@ void array(string[] stringArray)//метод заполнения
         stringArray[i] = Console.ReadLine();
     }
 }
-string[] symbol(string[] stringArray)
+string[] symbol(string[] stringArray)//Второй метод
 {
     int n = 0;
     for (int i = 0; i < stringArray.Length; i++)
@@ -33,7 +33,7 @@ string[] symbol(string[] stringArray)
     }
     return rez;
 }
-void printA(string[] stringArray)
+void printA(string[] stringArray)//третий метод
 {
     Console.Write("[");
     for (int i = 0; i < stringArray.Length; i++)
@@ -42,5 +42,5 @@ void printA(string[] stringArray)
     }
     Console.Write("]");
 }
-array(stringArray);//ВЫЗОВ МЕТОДА
+array(stringArray);//вызовы
 printA(symbol(stringArray));
